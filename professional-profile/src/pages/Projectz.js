@@ -5,10 +5,10 @@ import Header from '../components/Header/Header.js';
 // import Container from '../components/Container'
 // import Footer from '../components/Footer'
 
-function Contact() {
+function Projectz() {
     return (
 <Header />
     );
 }
 
-export default Contact;
+export default Projectz;

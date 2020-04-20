@@ -1,0 +1,27 @@
+#nav1 {
+    background-color: #ba411f;
+    color: white;
+}
+
+#nav2 {
+    background-color: #071425;
+    color: white;
+}
+
+#nav3 {
+    background-color: #ba411f;
+    color: white;
+}
+
+#favoriteLanguages {
+    border-width: .5rem;
+    border-style: solid;
+    border-color: #ba411f;
+    color: black;
+    background-color: white;
+}
+
+
+#favoriteLanguageBg {
+    background-color: #071425;
+}
