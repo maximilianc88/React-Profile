@@ -14,14 +14,18 @@
 }
 
 #favoriteLanguages {
-    border-width: .5rem;
+    border-width: .25rem;
     border-style: solid;
-    border-color: #ba411f;
+    border-color: black;
     color: black;
-    background-color: white;
+    background-color: #ba411f;
 }
 
 
 #favoriteLanguageBg {
-    background-color: #071425;
+    background-color: #444f5e;
+    border-bottom-width: .5rem;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    padding-top: .5rem;
 }

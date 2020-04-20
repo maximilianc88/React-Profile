@@ -4,6 +4,8 @@ import Row from "../components/Row";
 import Container from "../components/Container";
 import Maxs_Profile_Pic from "../components/Images/Maxs_Profile_Pic.jpg";
 import JavaScriptPic from "../components/Images/JavaScriptPic.png";
+import cssPic from "../components/Images/cssPic.png";
+import ResumeButton from "../components/ResumeButton";
 // import Footer from '../components/Footer'
 
 function AboutMe() {
@@ -11,17 +13,16 @@ function AboutMe() {
     <div>
       <Header />
       <Container>
-        <h1 className="text-center mt-3">About Me</h1>
         <Row>
-          <div className="col-md-1"></div>
-          <div className="col-md-4">
-            <img className="img-thumbnail" src={Maxs_Profile_Pic} />
+          <div className="col-md-5 p-0 ml-0 pr-3">
+          <h1 className="text-left py-3">About Me</h1>
+          <img className="img-thumbnail text-left" src={Maxs_Profile_Pic} />
           </div>
-          <div className="col-md-7 p">
+          <div className="col-md-7">
             <Row>
               <div className="col-md-12">
                 <Row>
-                  <div className="col-md-12 mt-2">
+                  <div className="col-md-12 mt-5 pt-5">
                     <p>
                       My name is Maximillian Cartwright. In my professional
                       career, I have worked in many different types of
@@ -45,12 +46,13 @@ function AboutMe() {
                     </p>
                   </div>
                 </Row>
-                <Row className="d-flex flex-xl-wrap bg-light">
-                  <div className="col-md-12 p-0 m-0 text-center" >
-                    <h2 id="favoriteLanguages" className="text-center">
-                      My Favorite Language
-                    </h2>
-                    <img className="img-thumbnail mt-2" src={JavaScriptPic} />
+                <Row className="d-flex flex-xl-wrap mt-3 pt-1">
+                  <div className="col-md-12 px-0 pb-3 m-0 text-center h-50" id="favoriteLanguageBg">
+                    <h4 id="favoriteLanguages" className="text-center">
+                      My Favorite Languages
+                    </h4>
+                    <img className="img-thumbnail mt-2 mr-5 h-50" src={JavaScriptPic} />
+                    <img className="img-thumbnail mt-2 ml-5 h-50" src={cssPic} />
                   </div>
                 </Row>
               </div>
