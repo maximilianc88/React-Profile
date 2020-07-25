@@ -4,7 +4,7 @@ import Row from "../components/Row";
 import Container from "../components/Container";
 import Maxs_Profile_Pic from "../components/Images/Maxs_Profile_Pic.jpg";
 import JavaScriptPic from "../components/Images/JavaScriptPic.png";
-import cssPic from "../components/Images/cssPic.png";
+import cPic from "../components/Images/cPic.png";
 import ResumeButton from "../components/ResumeButton";
 // import Footer from '../components/Footer'
 
@@ -14,45 +14,55 @@ function AboutMe() {
       <Header />
       <Container>
         <Row>
-          <div className="col-md-5 p-0 ml-0 pr-3">
-          <h1 className="text-left py-3">About Me</h1>
-          <img className="img-thumbnail text-left" src={Maxs_Profile_Pic} />
+          <div className="col-md-5 p-0 ml-0">
+            <h1 className="text-left py-3">About Me</h1>
+            <img className="img-thumbnail text-left" src={Maxs_Profile_Pic} />
           </div>
-          <div className="col-md-7">
+          <div className="col-md-1 p-0 ml-0"></div>
+          <div className="col-md-6">
             <Row>
               <div className="col-md-12">
                 <Row>
                   <div className="col-md-12 mt-5 pt-5">
                     <p>
-                      My name is Maximillian Cartwright. In my professional
-                      career, I have worked in many different types of
-                      businesses. One of my favorite jobs was working at Sonic
-                      Drive-In franchises. I really enjoyed travelling to new
-                      places and training new crews to be prepared for opening
-                      new stores. One of my least favorite jobs was in the
-                      kitchen of a restaurant. My boss at the kitchen was very
-                      stubborn and the hours were terrible!
+                      Hello world! My name is Maximillian Cartwright. I grew up
+                      with an awareness that technology was evolving around me
+                      and continuously impacting my daily life. I acquired a
+                      passion for technology and programming through my
+                      professional experience in technical support. I attended a
+                      full-stack web devlopment bootcamp which provided the
+                      skills necessary to continue learning more on my own!
                     </p>
                   </div>
                 </Row>
                 <Row>
                   <div className="col-md-12">
                     <p>
-                      My favorite color is blue. My favorite band is Atmosphere.
-                      My hobbies are playing video games, baking, hiking, and
-                      fishing. My first daughter is almost a year old. When I'm
-                      not working and studying I really enjoy quality family
-                      time.
+                      In my career I have utilized problem solving skills and
+                      the ability to present ideas to empower individuals in
+                      small businesses and corporations. I like to dig deep and
+                      work with others to adapt to new challenges.
                     </p>
                   </div>
                 </Row>
                 <Row className="d-flex flex-xl-wrap mt-3 pt-1">
-                  <div className="col-md-12 px-0 pb-3 m-0 text-center h-50" id="favoriteLanguageBg">
-                    <h4 id="favoriteLanguages" className="text-center">
+                  <div
+                    className="col-md-12 px-0 pb-3 m-0 text-center h-50"
+                    id="favoriteLanguageBg"
+                  >
+                    <h4 id="favoriteLanguages" className="text-center pb-1">
                       My Favorite Languages
                     </h4>
-                    <img className="img-thumbnail mt-2 mr-5 h-50" src={JavaScriptPic} />
-                    <img className="img-thumbnail mt-2 ml-5 h-50" src={cssPic} />
+                    <img
+                      id="jsLogo"
+                      className="img-thumbnail mt-2 mr-5"
+                      src={JavaScriptPic}
+                    />
+                    <img
+                      id="cLogo"
+                      className="img-thumbnail mt-2 ml-5"
+                      src={cPic}
+                    />
                   </div>
                 </Row>
               </div>

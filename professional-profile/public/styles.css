@@ -3,3 +3,7 @@ body {
 background-color: #444f5e;
 color: white;
 }
+
+#cLogo, #jsLogo {
+    height: 250px;
+}
